@@ -2,28 +2,28 @@
 # Необходимо вывести на экран названия дня недели.
 # Например, если 1, то на экране надпись понедельник, 2 — вторник и т.д.
 
-# try:
-#     user_select = int(input("Enter the number of the day of the week here:"))
-#
-#     if user_select == 1:
-#         print("Monday")
-#     elif user_select == 2:
-#         print("Tuesday")
-#     elif user_select == 3:
-#         print("Wednesday")
-#     elif user_select == 4:
-#         print("Thursday")
-#     elif user_select == 5:
-#         print("Friday")
-#     elif user_select == 6:
-#         print("Saturday")
-#     elif user_select == 7:
-#         print("Sunday")
-#     else:
-#         print("Incorrect numer")
-#
-# except Exception as error:
-#     print(f"Exception occurred: {error}")
+try:
+    user_select = int(input("Enter the number of the day of the week here:"))
+
+    if user_select == 1:
+        print("Monday")
+    elif user_select == 2:
+        print("Tuesday")
+    elif user_select == 3:
+        print("Wednesday")
+    elif user_select == 4:
+        print("Thursday")
+    elif user_select == 5:
+        print("Friday")
+    elif user_select == 6:
+        print("Saturday")
+    elif user_select == 7:
+        print("Sunday")
+    else:
+        print("Incorrect numer")
+
+except Exception as error:
+    print(f"Exception occurred: {error}")
 
 
 
@@ -31,19 +31,19 @@
 
 # 2. Пользователь вводит два числа. Определить, равны ли эти числа и если нет, вывести их на экран в порядке возрастания
 
-# try:
-#     num1 = int(input("Enter the first numer:"))
-#     num2 = int(input("Enter the second numer:"))
-#
-#     if num1 == num2:
-#         print("These numbers are equal")
-#     elif num1 > num2:
-#         print(num2,num1)
-#     elif num2 > num1:
-#         print(num1,num2)
-#
-# except Exception as error:
-#     print(f"Exception occurred: {error}")
+try:
+    num1 = int(input("Enter the first numer:"))
+    num2 = int(input("Enter the second numer:"))
+
+    if num1 == num2:
+        print("These numbers are equal")
+    elif num1 > num2:
+        print(num2,num1)
+    elif num2 > num1:
+        print(num1,num2)
+
+except Exception as error:
+    print(f"Exception occurred: {error}")
 
 
 
